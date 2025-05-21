@@ -9,4 +9,10 @@ const allNumbers = [...numbers1 , ...numbers2];
 // console.log(allNumbers)
 const orginalString = "Shakil";
 const strSpreed = [...orginalString];
-console.log(strSpreed)
+// console.log(strSpreed)
+
+function doubleIt(a, b){
+    return [a*2, b*2]
+}
+const [first, second] = doubleIt(3, 6);
+console.log(first, second)
