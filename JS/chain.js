@@ -3,4 +3,10 @@ const data = [{id: 1, name: 'Abdul', address: 'Bhola'}, {id:2, name:"Shakil", ad
 // console.log(data[1].name)
 const numbers = [12, 34, 45, 24, 21, 40]
 const doubledIt = numbers.map(num => num * 2) 
-console.log(doubledIt)
+// console.log(doubledIt)
+// ---------------other option-------------------------
+function doubleIt2(num){
+    return num * 2;
+}
+const result = numbers.map(doubleIt2)
+console.log(result)
