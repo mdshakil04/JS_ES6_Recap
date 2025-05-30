@@ -31,7 +31,8 @@ const number = {
     b : 20,
     c: 30
 }
-const sum = Object.values(number).reduce((acc, curr) => acc + curr, 0)
+const values = Object.values(number)
+const sum = values.reduce((acc, curr) => acc + curr, 0)
 console.log(sum)
 // for(const key in number){
 //     // console.log(key);
