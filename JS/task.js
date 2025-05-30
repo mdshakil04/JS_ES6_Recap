@@ -24,8 +24,19 @@ const article = {
     price: 650,
     category: "Programming"
 }
-console.log(Object.keys(article).includes("author"))
+// console.log(Object.keys(article).includes("author"))
+// console.log(Object.values(article))
+const number = {
+    a : 10,
+    b : 20,
+    c: 30
+}
+const sum = Object.values(number).reduce((acc, curr) => acc + curr, 0)
+console.log(sum)
+// for(const key in number){
+//     // console.log(key);
+//     const value = number[key]
+//     // console.log(value)
+//     let sum = 0;
 
-// for(const key in article){
-//     console.log(key.includes('author'))
 // }
