@@ -39,5 +39,4 @@ console.log(sum)
 //     const value = number[key]
 //     // console.log(value)
 //     let sum = 0;
-
 // }
